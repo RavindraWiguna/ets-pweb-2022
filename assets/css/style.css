@@ -769,6 +769,13 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 
+.features_title_menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+}
+
 @media (max-width: 767px) {
   .single_features .features_title {
     font-size: 24px;
