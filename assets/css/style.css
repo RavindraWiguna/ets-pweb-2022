@@ -1102,6 +1102,10 @@ p {
   }
 }
 
+.pricing_list{
+  height: 700px;
+}
+
 .single_pricing .pricing_list li {
   margin-top: 15px;
   font-size: 16px;
