@@ -783,6 +783,10 @@ p {
   color: #E84E4E;
 }
 
+.single_features img {
+  border-radius: 10px;
+}
+
 /*===========================
       04.ABOUT css 
 ===========================*/
@@ -1173,11 +1177,11 @@ p {
 /*===========================
      08.TESTIMONIAL css 
 ===========================*/
-.testimonial_area {
+.menuhari_area {
   position: relative;
 }
 
-.testimonial_area::before {
+.menuhari_area::before {
   position: absolute;
   content: '';
   width: 100%;
@@ -1187,12 +1191,12 @@ p {
   background-color: rgba(43, 42, 61, 0.9);
 }
 
-.testimonial_active_wrapper {
+.menuhari_active_wrapper {
   position: relative;
   padding-bottom: 60px;
 }
 
-.testimonial_active_wrapper .tns-nav {
+.menuhari_active_wrapper .tns-nav {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1201,7 +1205,7 @@ p {
   margin-top: 35px;
 }
 
-.testimonial_active_wrapper .tns-nav button {
+.menuhari_active_wrapper .tns-nav button {
   margin: 0 5px;
   width: 18px;
   height: 5px;
@@ -1213,34 +1217,37 @@ p {
   background-color: #ECECEC;
 }
 
-.testimonial_active_wrapper .tns-nav button.tns-nav-active {
+.menuhari_active_wrapper .tns-nav button.tns-nav-active {
   background-color: #E84E4E;
 }
 
-.single_testimonial img {
+.single_hari img {
   display: inline-block;
-  border-radius: 50%;
+  border-radius: 5%;
+  margin-left: 10px;
+  width:30%;
+  /* height: 50%; */
 }
 
 @media (max-width: 767px) {
-  .single_testimonial img {
-    width: 120px;
+  .single_hari img {
+    width: 240px;
   }
 }
 
-.single_testimonial .author_name {
+.single_hari .nama_hari {
   font-size: 20px;
   font-weight: 600;
   color: #fff;
-  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
-.single_testimonial span {
+.single_hari span {
   font-size: 14px;
   color: #fff;
 }
 
-.single_testimonial p {
+.single_hari p {
   color: #fff;
   margin-top: 15px;
 }
